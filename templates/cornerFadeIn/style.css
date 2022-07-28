@@ -9,6 +9,7 @@
 .rjPopup__cover {
   position: fixed;
   bottom: 0; right: 0;
+  box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, .4);
   margin: 20px;
 
   z-index: 999;
