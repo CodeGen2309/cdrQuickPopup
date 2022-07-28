@@ -5,3 +5,41 @@
   margin: 20px;
   padding: 10px;
 }
+
+.rjPopup__cover {
+  position: fixed;
+  bottom: 0; right: 0;
+  margin: 20px;
+
+  z-index: 999;
+  transition: 1s;
+}
+
+.rjPopup__cover_inactive {
+  display: none;
+}
+
+.rjPopup__cover_inviz {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.rjPopup__frame {}
+.rjPopup__closeIcon {
+  position: absolute;
+  right: 0; top: 0;
+  width: 35px; margin: 10px;
+  opacity: .6;
+
+  cursor: pointer;
+  transition: .3s;
+}
+
+.rjPopup__closeIcon:hover {
+  opacity: 1;
+}
+
+.rjPopup__image {
+  max-width: 100%;
+  max-height: 100%;
+}  
